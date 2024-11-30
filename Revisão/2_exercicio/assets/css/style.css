@@ -56,3 +56,7 @@ form button:hover {
 form button:active{
     background: var(--primary-color-active);
 }
+
+.paragrafo-resultado{
+    background-color: red;
+}
