@@ -2,6 +2,8 @@
     --primary-color: rgb(76, 45, 108);
     --primary-color-darker: rgb(68, 43, 94);
     --primary-color-active: rgb(44, 21, 69);
+    --result-succes: rgb(52, 235, 128);
+    --result-error: rgb(196, 31, 31);
 }
 * {
     box-sizing: border-box;
@@ -57,6 +59,12 @@ form button:active{
     background: var(--primary-color-active);
 }
 
-.paragrafo-resultado{
-    background-color: red;
+.paragrafo-resultado-sucesso{
+    background-color: var(--result-succes);
+    padding: 10px 20px;
+}
+
+.paragrafo-resultado-erro{
+    background-color: var(--result-error);
+    padding: 10px 20px;
 }
