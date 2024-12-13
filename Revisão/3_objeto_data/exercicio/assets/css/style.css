@@ -18,7 +18,14 @@ body {
     margin: 50px auto;
     padding: 20px;
     background: #fff;
+    border-radius: 10px;
 }
+
+p {
+    font-size: 40px;
+    font-weight: 900;
+}
+
 form input, form label, form button {
     display: block;
     width: 100%;

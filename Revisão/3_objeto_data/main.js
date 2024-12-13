@@ -1,30 +1,30 @@
 const data = new Date('2024-11-25')
-console.group(data.toString())
+console.log(data.toString())
 
 const diaSemana = data.getDay();
 let diaSemanaTexto;
 
 switch(diaSemana) {
     case 0:
-        diaSemanaTexto = 'Domingo';
+        diaSemanaTexto = 'Domingo'
         break;
     case 1:
-        diaSemanaTexto = 'Segunda';
+        diaSemanaTexto = 'Segunda'
         break;
     case 2:
-        diaSemanaTexto = 'Terça';
+        diaSemanaTexto = 'Terça'
         break;
     case 3:
-        diaSemanaTexto = 'Quarta';
+        diaSemanaTexto = 'Quarta'
         break;
     case 4:
-        diaSemanaTexto = 'Quinta';
+        diaSemanaTexto = 'Quinta'
         break;
     case 5:
-        diaSemanaTexto = 'Sexta';
+        diaSemanaTexto = 'Sexta'
         break;
     case 6: 
-        diaSemanaTexto = 'Sábado';
+        diaSemanaTexto = 'Sábado'
         break;
     default:
         diaSemanaTexto = 'Dia Inválido'
