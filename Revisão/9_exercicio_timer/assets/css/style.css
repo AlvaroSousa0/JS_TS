@@ -13,7 +13,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #000000;
+    background: #0f0f0f;
 }
 .container {
     display: flex;
@@ -45,7 +45,11 @@ body {
 button {
     border: none;
     font-size: 1.3em;
-    margin: 0.5em;
+    margin: 1em;
     padding: 0.3em 0.7em;
+    background-color: #2727275d;
+    color: #f3f3f3;
+    box-shadow: 1px 1px 10px #ececec;
+    text-shadow: 1px 1px 5px #fff;
 }
 
