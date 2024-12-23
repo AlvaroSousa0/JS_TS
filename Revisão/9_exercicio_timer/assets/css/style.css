@@ -31,7 +31,9 @@ body {
 }
 
 .pausado {
-    color: red;
+    color: rgb(236, 63, 63);
+    text-shadow: 1px 1px 20px #ee4141;
+
 }
 
 .buttons{
