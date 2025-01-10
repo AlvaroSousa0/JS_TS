@@ -1,14 +1,16 @@
-const pessoa = new Object();
+function Produto (nome, preco, estoque) {
+    this.nome = nome;
+    this.preco = preco;
 
-pessoa.nome = 'Álvaro';
-pessoa.sobrenome = 'Oliveira';
-pessoa.idade = 1;
-pessoa.getDataNascimento = () => {
-    const anoAtual = new Date();
-    console.log(anoAtual.getFullYear());
-    console.log(this.idade);
-    return anoAtual.getFullYear() - this.idade;
-};
+    Object.defineProperty(this, 'estoque', {
+        enumerable: true,
+        value: estoque,
+        writable: false,
+        configurable: true
+    });
+}
 
-// console.log(pessoa.getDataNascimento());]
-pessoa.getDataNascimento()
+let p1 = new Produto('Camisa', 20, 4);
+delete p1.estoque
+p1.estoque = 100
+console.log(p1);
